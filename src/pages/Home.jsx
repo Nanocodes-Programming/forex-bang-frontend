@@ -1,10 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
+import Wrapper from "../components/Wrapper";
 
 const Home = () => {
   return (
    <Layout>
-     this is the layout system
+    <Wrapper>
+      this is romeo
+    </Wrapper>
    </Layout>
   );
 };

@@ -5,7 +5,7 @@ import logo from "../assets/img/logo.png";
 const Nav = () => {
   return (
     <>
-      <div className="flex bg-[blue] items-center justify-between p-[1rem] px-[3rem]">
+      <div className="flex bg-[blue] items-center justify-between p-[1rem] px-[3rem] fixed top-0 w-full">
         <div className="flex items-center">
           <img src={logo} alt="main" className="w-[60px] h-[60px]" />
           <h2 className="text-white font-bold mx-2">
