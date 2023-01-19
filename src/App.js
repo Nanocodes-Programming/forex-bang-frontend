@@ -19,7 +19,7 @@ const router = createBrowserRouter([
     element: <Exchanges />,
   },
   {
-    path: "/signals",
+    path: "/signal",
     element: <Signal />,
   },
   {
