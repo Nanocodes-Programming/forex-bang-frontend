@@ -1,8 +1,11 @@
 import React from "react";
-import herobg from '../assets/img/herobg.png'
 
 const Wrapper = ({ children }) => {
-  return <div className="h-[100vh] w-full bg-[url('../public/assets/img/herobg.png')] relative">{children}</div>;
+  return (
+    <div className='h-[100vh] w-full bg-[url("/src/assets/img/herobg.png")] bg-cover bg-center relative bg-no-repeat '>
+      {children}
+    </div>
+  );
 };
 
 export default Wrapper;
