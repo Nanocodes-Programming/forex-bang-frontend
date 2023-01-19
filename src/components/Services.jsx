@@ -25,17 +25,41 @@ const service_data = [
 
 const Services = () => {
   return (
-    <div className="flex w-[80%] m-auto">
-      {service_data.map((service) => {
-        return (
-          <div className="min-h-[400px] w-[300px] text-center rounded-[10px] mx-[0.5rem]">
-            {service.title}
-            <img src={service.image} alt="" className="m-auto" />
-            {service.descrition}
-          </div>
-        );
-      })}
-    </div>
+    <>
+      <div className="flex w-[80%] m-auto gap-4">
+        {service_data.map((service) => {
+          return (
+            <div
+              className="min-h-[400px] w-[300px] text-center rounded-[10px] bg-gradient-to-r-yellow-blue-white
+          my-[1rem] mx-[0.5rem] border-2 p-[1rem] flex flex-col justify-between"
+            >
+              <div>
+                <img src={service.image} alt="" className="m-auto w-[30%]" />
+              </div>
+              <p className="text-2xl my-[0.5rem]">{service.title}</p>
+
+              <p className="my-[1rem]"> {service.descrition}</p>
+
+              <button className="w-[70%] mx-auto my-[1rem] rounded-md text-white font-bold py-[0.5rem] bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
+                learn more
+              </button>
+            </div>
+          );
+        })}
+      </div>
+
+      <div className="w-[80%] m-auto my-4 border-2 rounded-lg p-[2rem] min-h-[250px] flex flex-col justify-around">
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Eget pharetra in tortor
+          maecenas erat. Mus lobortis sit amet semper tellus euismod dolor
+          pulvinar. Laoreet suspendisse venenatis amet quis eget pulvinar nam.
+          Non vel mi sodales adipiscin
+        </p>
+        <button className="w-[70%] block m-auto my-[1rem] rounded-md text-white font-bold py-[0.5rem] bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
+          learn more
+        </button>
+      </div>
+    </>
   );
 };
 
