@@ -1,15 +1,33 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../assets/img/logo.png";
 
 const Nav = () => {
   return (
     <>
-      <ul>
-        <li>Mentorship</li>
-        <li>Signals</li>
-        <li>Exchange</li>
-        <li>About us </li>
-      </ul>
+      <div className="flex bg-[blue] items-center justify-between p-[1rem] px-[3rem]">
+        <div className="flex items-center">
+          <img src={logo} alt="main" className="w-[60px] h-[60px]" />
+          <h2 className="text-white font-bold mx-2">
+            Lumen Forex <br />
+            Academy
+          </h2>
+        </div>
+        <ul className="flex justify-between items-center text-white">
+          <Link to="/mentorship">
+            <li className="p-[0.5rem] font-bold font-2xl">Mentorship</li>
+          </Link>
+          <Link to='/signal'>
+            <li className="p-[0.5rem]  font-bold font-2xl">Signals</li>
+          </Link>
+          <Link to='/exchange'>
+            <li className="p-[0.5rem] font-bold font-2xl">Exchange</li>
+          </Link>
+          <Link to='/about'>
+            <li className="p-[0.5rem]  font-bold font-2xl">About us </li>
+          </Link>
+        </ul>
+      </div>
     </>
   );
 };

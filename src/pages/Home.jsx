@@ -1,10 +1,11 @@
 import React from "react";
+import Layout from "../components/Layout";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+   <Layout>
+     this is the layout system
+   </Layout>
   );
 };
 
