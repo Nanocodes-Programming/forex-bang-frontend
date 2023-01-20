@@ -1,9 +1,9 @@
-import {useState} from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 
 const Nav = () => {
-  const [navScroll, setNavScroll] = useState(false)
+  const [navScroll, setNavScroll] = useState(false);
 
   // changenavbg
   const changeBg = () => {
@@ -12,7 +12,13 @@ const Nav = () => {
   window.addEventListener("scroll", changeBg);
   return (
     <>
-      <div className="flex bg-transparent items-center justify-between p-[1rem] px-[3rem] fixed top-0 w-full z-20">
+      <div
+        className={
+          navScroll
+            ? "flex card_content items-center justify-between p-[1rem] px-[3rem] h-[80px] fixed top-0 w-full z-20 bg-[#030C4B]"
+            : "flex bg-transparent card_content items-center justify-between p-[1rem] px-[3rem] fixed top-0 w-full z-20 bg-[#030C4B]"
+        }
+      >
         <div className="flex items-center">
           <img src={logo} alt="main" className="w-[60px] h-[60px]" />
           <h2 className="text-white font-bold mx-2">
@@ -24,13 +30,13 @@ const Nav = () => {
           <Link to="/mentorship">
             <li className="p-[0.5rem] font-bold font-2xl">Mentorship</li>
           </Link>
-          <Link to='/signal'>
+          <Link to="/signal">
             <li className="p-[0.5rem]  font-bold font-2xl">Signals</li>
           </Link>
-          <Link to='/exchange'>
+          <Link to="/exchange">
             <li className="p-[0.5rem] font-bold font-2xl">Exchange</li>
           </Link>
-          <Link to='/about'>
+          <Link to="/about">
             <li className="p-[0.5rem]  font-bold font-2xl">About us </li>
           </Link>
         </ul>
