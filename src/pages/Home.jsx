@@ -26,8 +26,8 @@ const Home = () => {
           </div>
           {/* services ends here  */}
         </Wrapper>
-        <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]  bg-[#030C4B] bg-cover bg-center"></div>
-        <div className="my-[1rem]">
+        <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]   bg-cover bg-center"></div>
+        <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
           <TradeChart />
         </div>
       </Layout>

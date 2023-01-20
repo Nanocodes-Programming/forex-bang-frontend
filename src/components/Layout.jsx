@@ -5,9 +5,11 @@ import Nav from "./Nav";
 const Layout = ({ children }) => {
   return (
     <>
-      <Nav />
-      {children}
-      <Footer />
+      <section className=" bg-[#030C4B]">
+        <Nav />
+        {children}
+        <Footer />
+      </section>
     </>
   );
 };
