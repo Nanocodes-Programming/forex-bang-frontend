@@ -1,8 +1,15 @@
-import React from "react";
+import {useState} from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.png";
 
 const Nav = () => {
+  const [navScroll, setNavScroll] = useState(false)
+
+  // changenavbg
+  const changeBg = () => {
+    window.scrollY >= 80 ? setNavScroll(true) : setNavScroll(false);
+  };
+  window.addEventListener("scroll", changeBg);
   return (
     <>
       <div className="flex bg-transparent items-center justify-between p-[1rem] px-[3rem] fixed top-0 w-full z-20">
