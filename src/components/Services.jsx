@@ -31,7 +31,7 @@ const Services = () => {
           return (
             <div
               className="min-h-[400px] w-[300px] text-center rounded-[10px] bg-gradient-to-r-yellow-blue-white
-          my-[1rem] mx-[0.5rem] border-2 p-[1rem] flex flex-col justify-between"
+          my-[1rem] mx-[0.5rem] border-2 p-[1rem] flex flex-col justify-between bg-[#F1FCFF] blur-12"
             >
               <div>
                 <img src={service.image} alt="" className="m-auto w-[30%]" />
