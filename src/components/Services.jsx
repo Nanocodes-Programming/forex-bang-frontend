@@ -48,7 +48,7 @@ const Services = () => {
         })}
       </div>
 
-      <div className="w-[80%] m-auto my-4 border-2 rounded-lg p-[2rem] min-h-[250px] flex flex-col justify-around">
+      <div className="w-[80%] m-auto my-4 border-2 rounded-[14px] p-[2rem] min-h-[250px] flex flex-col justify-around bg-[#2ecbf180]">
         <p>
           Lorem ipsum dolor sit amet consectetur. Eget pharetra in tortor
           maecenas erat. Mus lobortis sit amet semper tellus euismod dolor
