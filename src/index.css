@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card_content{
+    transition: all 0.4s linear;
+}
