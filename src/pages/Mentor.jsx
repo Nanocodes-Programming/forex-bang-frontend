@@ -35,8 +35,39 @@ const Mentor = () => {
             " » Mastery Certificate award",
           ]}
         />
-        <Card />
-        <Card />
+        <Card
+          price="300"
+          title="Exclusive Mentorship"
+          lists={[
+            "» Physically based Training",
+            "» Online based Training",
+            "» Novice to Mastery Courses",
+            "» Real Live Trading Sessions",
+            "» Free WiFi",
+            "» Free Signals",
+            "» Access to prerecorded Lessons",
+            "» One Month immerse Training",
+            "» Fixtures with the Expert Team",
+            "» Prop Firm Challenge Experience",
+            "» Exposure to the CryptoSystem",
+            "» Mastery Certificate Award",
+          ]}
+        />
+        <Card
+        price="200"
+        title="online Mentorship"
+          lists={[
+            "» Online based Training",
+            " » Novice to Mastery Courses",
+            " » Online Live Trading experience",
+            "» Access to prerecorded Lessons",
+            "  » Zoom Sessions",
+            " » Access to Online membership group",
+            "  » Free Signals",
+            "» Prop Firm Challenge Experience ",
+            "  » Mastery Certificate Award",
+          ]}
+        />
       </div>
     </Layout>
   );
