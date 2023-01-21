@@ -1,6 +1,6 @@
 import Layout from "../components/Layout";
 import Wrapper from "../components/Wrapper";
-import chart from "../assets/img/chart3-svgrepo-com 1.png";
+import signal from "../assets/img/Group 121.png";
 import Card from "../components/Card";
 
 const Signal = () => {
@@ -9,7 +9,7 @@ const Signal = () => {
       <Wrapper>
         {/* home wrapper */}
         <div className="w-[40%] h-full flex flex-col justify-end p-[4rem] items-start">
-          <img src={chart} alt="" />
+          <img src={signal} alt="" />
           <h1 className="text-4xl font-bold text-white">Forex Trade Signals</h1>
           <p className="text-2xl text-white   my-4">
             Earn on the go with LumenFx by copying our daily bases signals
