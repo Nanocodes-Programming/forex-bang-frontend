@@ -19,13 +19,15 @@ const Nav = () => {
             : "flex bg-transparent card_content items-center justify-between p-[1rem] px-[3rem] fixed top-0 w-full z-20 bg-[#030C4B]"
         }
       >
-        <div className="flex items-center">
-          <img src={logo} alt="main" className="w-[60px] h-[60px]" />
-          <h2 className="text-white font-bold mx-2">
-            Lumen Forex <br />
-            Academy
-          </h2>
-        </div>
+        <Link to="/">
+          <div className="flex items-center">
+            <img src={logo} alt="main" className="w-[60px] h-[60px]" />
+            <h2 className="text-white font-bold mx-2">
+              Lumen Forex <br />
+              Academy
+            </h2>
+          </div>
+        </Link>
         <ul className="flex justify-between items-center text-white">
           <Link to="/mentorship">
             <li className="p-[0.5rem] font-bold font-2xl">Mentorship</li>
