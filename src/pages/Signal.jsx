@@ -20,7 +20,18 @@ const Signal = () => {
         {/* services starts here */}
       </Wrapper>
       <div className="min-h-[400px] bg-[url('/src/assets/img/forexbg.png')]   bg-cover bg-center">
-        <Card />
+        <Card
+          price="100"
+          title="Copy Signals"
+          lists={[
+            "» Exclusive Monthly Signals",
+            "» 0-5 Signals Weekly",
+            "» Risk Minimized entries",
+            "» Profit Maximized Trades",
+            "» Weekly Charting",
+            "» Almost 90% Accuracy",
+          ]}
+        />
       </div>
     </Layout>
   );
