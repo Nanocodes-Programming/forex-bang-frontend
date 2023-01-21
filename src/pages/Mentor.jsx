@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Wrapper from "../components/Wrapper";
-import chart from '../assets/img/chart3-svgrepo-com 1.png'
+import chart from "../assets/img/chart3-svgrepo-com 1.png";
+import Card from "../components/Card";
 
 const Mentor = () => {
   return (
@@ -19,6 +20,11 @@ const Mentor = () => {
         {/* home wrapper */}
         {/* services starts here */}
       </Wrapper>
+      <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]   bg-cover bg-center">
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </Layout>
   );
 };
