@@ -21,7 +21,20 @@ const Mentor = () => {
         {/* services starts here */}
       </Wrapper>
       <div className=" bg-[url('/src/assets/img/forexbg.png')] pb-[5rem]  bg-cover bg-center">
-        <Card />
+        <Card
+          price="500"
+          title="Exclusive Mentorship"
+          lists={[
+            "» One-on-One Private Mentorship",
+            " » One month Exclusive Training",
+            " » Free Signals",
+            "» EAYL bonus",
+            "» Real live Charting with LumenFx",
+            "» Lumen's Exclusive Course",
+            " » Online/Pro Mentorship Sessions",
+            " » Mastery Certificate award",
+          ]}
+        />
         <Card />
         <Card />
       </div>
