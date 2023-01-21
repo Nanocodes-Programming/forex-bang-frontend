@@ -20,7 +20,7 @@ const Mentor = () => {
         {/* home wrapper */}
         {/* services starts here */}
       </Wrapper>
-      <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]   bg-cover bg-center">
+      <div className=" bg-[url('/src/assets/img/forexbg.png')] pb-[5rem]  bg-cover bg-center">
         <Card />
         <Card />
         <Card />
