@@ -9,7 +9,7 @@ const Exchanges = () => {
       <Wrapper>
         {/* home wrapper */}
         <div className="md:w-[40%] w-full md:text-right text-center h-full flex flex-col justify-end p-[4rem] items-start">
-          <img src={dollar} alt="" />
+          <img src={dollar} alt="" className="mx-auto"/>
           <h1 className="text-4xl font-bold text-white">
             Exchange With Lumen Forex Academy
           </h1>

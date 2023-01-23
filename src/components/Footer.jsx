@@ -5,7 +5,7 @@ import UseLInks from "./UseLInks";
 
 const Footer = () => {
   return (
-    <div className="flex justify-around p-[1rem] items-start bg-[#030C4B] text-white ">
+    <div className="flex flex-wrap justify-around p-[1rem] items-start bg-[#030C4B] text-white ">
       <FooterContact /> 
       <UseLInks />
       <FooterForm />
