@@ -52,13 +52,13 @@ const Nav = () => {
         {/* mobile view stats here  */}
         {navToggle && (
           <HiMenuAlt3
-            className="cursor-pointer text-3xl md:hidden block"
+            className="cursor-pointer text-white text-3xl md:hidden block"
             onClick={toggleMobile}
           />
         )}
         {!navToggle && (
           <MdClose
-            className="cursor-pointer text-3xl md:hidden block"
+            className="cursor-pointer text-white text-3xl md:hidden block"
             onClick={toggleMobile}
           />
         )}
