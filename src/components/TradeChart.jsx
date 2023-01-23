@@ -4,8 +4,8 @@ import ScrollCounter from "./ScrollCounter";
 
 const TradeChart = () => {
   return (
-    <>
-      <div className="flex justify-between gap-2 py-[1.5rem] w-[80%] m-auto items-center text-white">
+    <div className="relative">
+      <div className="md:flex block justify-between gap-2 py-[1.5rem] w-[80%] m-auto items-center text-white ">
         <aside className="basis-[49%]">
           <p className="my-4 text-2xl">
             Lorem ipsum dolor sit amet consectetur. Eget pharetra in tortor
@@ -19,12 +19,12 @@ const TradeChart = () => {
           />
         </aside>
         <aside>
-          <img src={chart} alt="" className="w-[60%] m-auto" />
+          <img src={chart} alt="" className="w-[60%] m-auto md:static absolute bottom-1 right-1" />
         </aside>
       </div>
 
       <ScrollCounter />
-    </>
+    </div>
   );
 };
 

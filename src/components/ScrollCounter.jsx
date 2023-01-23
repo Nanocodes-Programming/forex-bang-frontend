@@ -2,7 +2,7 @@ import React from "react";
 
 const ScrollCounter = () => {
   return (
-    <div className="flex justify-between w-[80%] m-auto text-center text-white">
+    <div className="flex md:flex-row flex-col justify-between w-[80%] m-auto md:my-auto my-[1rem] text-center text-white z-10 relative">
       <aside>
         <h1 className="text-5xl mb-3 font-bold">180+</h1>
         <p>Student</p>
