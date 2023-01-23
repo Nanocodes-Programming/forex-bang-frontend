@@ -26,7 +26,7 @@ const service_data = [
 const Services = () => {
   return (
     <>
-      <div className="flex justify-center w-[80%] m-auto gap-4">
+      <div className="flex justify-center flex-wrap w-[80%] m-auto gap-4">
         {service_data.map((service) => {
           return (
             <div
@@ -48,7 +48,7 @@ const Services = () => {
         })}
       </div>
 
-      <div className="w-[80%] m-auto my-4 border-2 rounded-[14px] p-[2rem] min-h-[250px] flex flex-col justify-around bg-[#2ecbf180]">
+      <div className="w-[80%] m-auto my-4 md:border-2 border-none rounded-[14px] p-[2rem] min-h-[250px] flex flex-col justify-around bg-transparent text-white md:bg-[#2ecbf180]">
         <p>
           Lorem ipsum dolor sit amet consectetur. Eget pharetra in tortor
           maecenas erat. Mus lobortis sit amet semper tellus euismod dolor

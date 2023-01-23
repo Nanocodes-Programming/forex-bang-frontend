@@ -15,13 +15,13 @@ const Home = () => {
               Transform from a novice trader to a Full-time/Part-time
               Professional Forex Trader and Financial Analyst.
             </p>
-            <button className="py-[0.5rem] px-[2rem] w-[80%] rounded-xl text-2xl text-white font-bold bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
+            <button className="py-[0.5rem] px-[2rem] md:w-[80%] w-full rounded-xl text-2xl text-white font-bold bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
               Get Started
             </button>
           </div>
           {/* home wrapper */}
           {/* services starts here */}
-          <div className="absolute top-[80%]">
+          <div className="md:absolute top-[80%] static">
             <Services />
           </div>
           {/* services ends here  */}
