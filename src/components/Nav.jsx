@@ -63,7 +63,7 @@ const Nav = () => {
           />
         )}
         {!navToggle && (
-          <ul className="flex items-center justify-center flex-col z-100 bg-slate-100 p-2 rounded absolute top-[90%] right-3">
+          <ul className="flex items-center w-[50%] navy justify-center flex-col z-100 bg-slate-100 p-2 rounded absolute top-[90%] right-3">
             <Link to="/mentorship">
               <li className="p-[0.5rem] font-bold font-2xl">Mentorship</li>
             </Link>

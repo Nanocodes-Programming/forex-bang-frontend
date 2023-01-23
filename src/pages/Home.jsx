@@ -10,7 +10,7 @@ const Home = () => {
       <Layout>
         <Wrapper>
           {/* home wrapper */}
-          <div className="md:w-[40%] w-full md:text-right text-center h-full flex flex-col md:justify-center justify-end p-[4rem] items-start">
+          <div className="md:w-[40%] w-full md:text-left text-center h-full flex flex-col md:justify-center justify-end p-[4rem] items-start">
             <p className="text-2xl text-white font-bold  mb-4">
               Transform from a novice trader to a Full-time/Part-time
               Professional Forex Trader and Financial Analyst.
