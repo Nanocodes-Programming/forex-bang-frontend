@@ -1,15 +1,22 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/img/logo.png";
+import { HiMenuAlt3 } from "react-icons/hi";
+import { MdClose } from "react-icons/md";
 
 const Nav = () => {
   const [navScroll, setNavScroll] = useState(false);
+  const [navToggle, setNavToggle] = useState(true);
 
   // changenavbg
   const changeBg = () => {
     window.scrollY >= 80 ? setNavScroll(true) : setNavScroll(false);
   };
   window.addEventListener("scroll", changeBg);
+
+  const toggleMobile = () => {
+    setNavToggle(!navToggle);
+  };
   return (
     <>
       <div
@@ -28,7 +35,7 @@ const Nav = () => {
             </h2>
           </div>
         </Link>
-        <ul className="flex justify-between items-center text-white">
+        <ul className="hidden md:flex justify-between items-center text-white">
           <Link to="/mentorship">
             <li className="p-[0.5rem] font-bold font-2xl">Mentorship</li>
           </Link>
@@ -42,6 +49,35 @@ const Nav = () => {
             <li className="p-[0.5rem]  font-bold font-2xl">About us </li>
           </Link>
         </ul>
+        {/* mobile view stats here  */}
+        {navToggle && (
+          <HiMenuAlt3
+            className="cursor-pointer text-3xl md:hidden block"
+            onClick={toggleMobile}
+          />
+        )}
+        {!navToggle && (
+          <MdClose
+            className="cursor-pointer text-3xl md:hidden block"
+            onClick={toggleMobile}
+          />
+        )}
+        {!navToggle && (
+          <ul className="flex items-center justify-center flex-col z-100 bg-slate-100 p-2 rounded absolute top-[90%] right-3">
+            <Link to="/mentorship">
+              <li className="p-[0.5rem] font-bold font-2xl">Mentorship</li>
+            </Link>
+            <Link to="/signal">
+              <li className="p-[0.5rem]  font-bold font-2xl">Signals</li>
+            </Link>
+            <Link to="/exchange">
+              <li className="p-[0.5rem] font-bold font-2xl">Exchange</li>
+            </Link>
+            <Link to="/about">
+              <li className="p-[0.5rem]  font-bold font-2xl">About us </li>
+            </Link>
+          </ul>
+        )}
       </div>
     </>
   );

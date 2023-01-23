@@ -26,7 +26,7 @@ const service_data = [
 const Services = () => {
   return (
     <>
-      <div className="flex w-[80%] m-auto gap-4">
+      <div className="flex justify-center w-[80%] m-auto gap-4">
         {service_data.map((service) => {
           return (
             <div
