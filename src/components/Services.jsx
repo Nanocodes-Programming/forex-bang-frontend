@@ -55,7 +55,7 @@ const Services = () => {
           pulvinar. Laoreet suspendisse venenatis amet quis eget pulvinar nam.
           Non vel mi sodales adipiscin
         </p>
-        <button className="w-[70%] block m-auto my-[1rem] rounded-md text-white font-bold py-[0.5rem] bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
+        <button className="w-[70%] block m-auto my-[1rem] rounded-md text-white font-bold py-[0.5rem] md:bg-[#030C4B] bg-[#2ECBF1] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
           learn more
         </button>
       </div>

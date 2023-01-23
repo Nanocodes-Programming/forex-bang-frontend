@@ -21,12 +21,15 @@ const Home = () => {
           </div>
           {/* home wrapper */}
           {/* services starts here */}
-          <div className="md:absolute top-[80%] static">
+          <div className="md:absolute top-[80%] static md:block hidden">
             <Services />
           </div>
           {/* services ends here  */}
         </Wrapper>
-        <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]   bg-cover bg-center"></div>
+        <div className="md:hidden block">
+            <Services />
+          </div>
+        <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]  md:block hidden bg-cover bg-center"></div>
         <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
           <TradeChart />
         </div>
