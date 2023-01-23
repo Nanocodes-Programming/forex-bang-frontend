@@ -30,7 +30,7 @@ const ScrollCounter = () => {
         </aside>
         <aside>
           <h1 className="text-5xl mb-3 font-bold">
-            {viewPortEntered && <CountUp end={50} duration={5} />}+
+            {viewPortEntered && <CountUp end={50} duration={2} />}+
           </h1>
           <p>Signals daily</p>
         </aside>
