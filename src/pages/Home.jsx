@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import Learning from "../components/Learning";
 import Services from "../components/Services";
+import Testimonial from "../components/Testimonial";
 import TradeChart from "../components/TradeChart";
 import Wrapper from "../components/Wrapper";
 
@@ -35,6 +36,7 @@ const Home = () => {
         <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
           <TradeChart />
         </div>
+        <Testimonial />
       </Layout>
     </>
   );
