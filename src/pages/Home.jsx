@@ -35,6 +35,7 @@ const Home = () => {
         <Learning />
         <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
           <TradeChart />
+         
         </div>
         <Testimonial />
       </Layout>
