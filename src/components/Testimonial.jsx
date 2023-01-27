@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 // import required modules
-import { Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 const Testimonial = () => {
   const testimonials = [
@@ -38,16 +38,32 @@ const Testimonial = () => {
   return (
     <div className="p-[2rem]">
       <Swiper
-        slidesPerView={3}
+        
         spaceBetween={30}
-        slidesPerGroup={3}
+    
+        autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          breakpoints={{
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 1,
+              slidesPerGroup: 1,
+            },
+            // when window width is >= 768px
+            768: {
+                slidesPerGroup: 1,
+              slidesPerView: 3,
+            },
+          }}
         loop={true}
         loopFillGroupWithBlank={true}
         pagination={{
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        modules={[Autoplay,Pagination, Navigation]}
         className="mySwiper p-[2rem]"
       >
         {testimonials.map((testify) => {
