@@ -3,25 +3,15 @@ import React from "react";
 const FooterForm = () => {
   return (
     <div>
-      <h1 className="font-bold text-3xl mb-2">Send us A message</h1>
+      <h1 className="font-bold text-3xl mb-2">Newsletter</h1>
       <form action="#">
+       <p>submit your email to get the latest updates on <br /> forex and other related <br /> subjects.</p>
         <input
-          type="text"
-          className=" rounded-[10px] p-2 w-full block bg-[#d9d9d9b5] outline-none"
-          placeholder="Name"
+          type="email"
+          className=" rounded-[10px] my-4 p-2 w-full block bg-[#fff] outline-none"
+          placeholder=" Enter your Email"
         />
-        <input
-          type="text"
-          className=" rounded-[10px] my-4 p-2 w-full block bg-[#d9d9d9b5] outline-none"
-          placeholder="Email"
-        />
-        <textarea
-          className="w-full bg-[#d9d9d9b5] rounded-[10px] outline-none p-2 "
-          placeholder="Enter message"
-          id=""
-          cols="20"
-          rows="5"
-        ></textarea>
+        <button className="bg-[#2ECBF1] hover:bg-[#2ECBF1] hover:text-[#030C4B] px-[2rem] py-[0.5rem] rounded-lg"> send </button>
       </form>
     </div>
   );

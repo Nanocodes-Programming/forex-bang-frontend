@@ -28,8 +28,8 @@ const Home = () => {
           {/* services ends here  */}
         </Wrapper>
         <div className="md:hidden block">
-            <Services />
-          </div>
+          <Services />
+        </div>
         <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]  md:block hidden bg-cover bg-center"></div>
         <Learning />
         <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
