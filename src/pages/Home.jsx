@@ -1,4 +1,5 @@
 import React from "react";
+import Googlemaps from "../components/Googlemaps";
 import Layout from "../components/Layout";
 import Learning from "../components/Learning";
 import MoreServices from "../components/MoreServices";
@@ -37,7 +38,7 @@ const Home = () => {
         <MoreServices />
         <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
           <TradeChart />
-         
+         <Googlemaps />
         </div>
         <Testimonial />
       </Layout>

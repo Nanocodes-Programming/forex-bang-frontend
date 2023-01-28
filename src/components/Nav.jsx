@@ -48,6 +48,9 @@ const Nav = () => {
           <Link to="/about">
             <li className="p-[0.5rem]  font-bold font-2xl">About us </li>
           </Link>
+          <Link to="/contact">
+            <li className="p-[0.5rem]  font-bold font-2xl">Contact us </li>
+          </Link>
         </ul>
         {/* mobile view stats here  */}
         {navToggle && (
@@ -75,6 +78,9 @@ const Nav = () => {
             </Link>
             <Link to="/about">
               <li className="p-[0.5rem]  font-bold font-2xl">About us </li>
+            </Link>
+            <Link to="/contact">
+              <li className="p-[0.5rem]  font-bold font-2xl">Contact us </li>
             </Link>
           </ul>
         )}

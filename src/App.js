@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Exchanges from "./pages/Exchanges";
 import Home from "./pages/Home";
 import Mentor from "./pages/Mentor";
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/signal",
     element: <Signal />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
   {
     path: "/about",
