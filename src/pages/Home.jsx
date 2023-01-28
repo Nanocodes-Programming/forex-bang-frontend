@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Learning from "../components/Learning";
+import MoreServices from "../components/MoreServices";
 import Services from "../components/Services";
 import Testimonial from "../components/Testimonial";
 import TradeChart from "../components/TradeChart";
@@ -33,6 +34,7 @@ const Home = () => {
         </div>
         <div className="min-h-[580px] bg-[url('/src/assets/img/forexbg.png')]  md:block hidden bg-cover bg-center"></div>
         <Learning />
+        <MoreServices />
         <div className="py-[1rem] bg-[url('/src/assets/img/forexbg.png')]">
           <TradeChart />
          
