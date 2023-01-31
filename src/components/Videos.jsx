@@ -1,10 +1,12 @@
 import first from '../assets/img/03.React Formik Tutorial - 3 - useFormik Hook.mp4'
 import pexel1 from "../assets/img/pexels-godisable-jacob-1027162.jpg";
+import Swiperjs from './Swiperjs';
 
 const Videos = () => {
   return (
     <>
     <p className="text-center font-bold text-white text-4xl p-[2rem]">Videos</p>
+    <Swiperjs>
       <section className="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 p-[1rem] justify-center ">
         <div className="w-[320px] bg-white min-h-0-[400px] rounded-lg m-[1rem] p-[1rem]">
           <aside className="w-full h-[170px] ">
@@ -19,6 +21,7 @@ const Videos = () => {
           </aside>
         </div>
       </section>
+      </Swiperjs>
     </>
   )
 }
