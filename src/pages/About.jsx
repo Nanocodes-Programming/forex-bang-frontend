@@ -18,7 +18,7 @@ const About = () => {
             </p>
           </div>
         </Wrapper>
-        <div className="flex p-[2rem] ">
+        <div className="flex p-[2rem] md:flex-row flex-col">
           <img src={about} alt="" />
           <div className="p-[1rem] text-white">
             <h2 className="font-bold text-4xl mb-[1rem]">About Us</h2>

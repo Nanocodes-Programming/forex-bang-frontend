@@ -5,6 +5,8 @@ import Exchanges from "./pages/Exchanges";
 import Home from "./pages/Home";
 import Mentor from "./pages/Mentor";
 import Signal from "./pages/Signal";
+import Blogs from "./pages/Blogs";
+import Resources from "./pages/Resources";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/blog",
+    element: <Blogs />,
+  },
+  {
+    path: "/resource",
+    element: <Resources />,
   },
   {
     path: "/about",
