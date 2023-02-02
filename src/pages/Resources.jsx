@@ -1,4 +1,4 @@
-import Ebooks from "../components/Ebooks";
+// import Ebooks from "../components/Ebooks";
 import Layout from "../components/Layout";
 import Videos from "../components/Videos";
 import Webinar from "../components/Webinar";
@@ -20,7 +20,7 @@ const Resources = () => {
         </Wrapper>
         <Webinar />
         <Videos />
-        <Ebooks />
+        {/* <Ebooks /> */}
       </Layout>
     </>
   );
