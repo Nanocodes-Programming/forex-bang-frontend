@@ -8,15 +8,15 @@ const About = () => {
     <>
       <Layout>
         <Wrapper>
-          {/* home wrapper */}
-          <div className="md:w-[40%] w-full md:text-left text-center h-full flex flex-col md:justify-center justify-end p-[4rem] items-start">
-            <h1 className="text-4xl font-bold text-white">About us </h1>
+        <div className="md:w-[40%] w-full text-left  h-full flex flex-col justify-end md:p-[4rem] p-[2rem] items-start">
+         <h1 className="text-4xl font-bold text-white">About us </h1>
             <p className="text-2xl text-white   my-4">
               Exclusive Mentorship Program Get the best One-on-One Private
               Training you could ever imagine both online and offline with
               LumenFx Expert Team.
             </p>
-          </div>
+        </div>
+         
         </Wrapper>
         <div className="flex p-[2rem] md:flex-row flex-col">
           <img src={about} alt="" />

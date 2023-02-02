@@ -13,15 +13,15 @@ const Contact = () => {
     <>
       <Layout>
         <Wrapper>
-          {/* home wrapper */}
-          <div className="md:w-[40%] w-full md:text-left text-center h-full flex flex-col md:justify-center justify-end p-[4rem] items-start">
-            <h1 className="text-4xl font-bold text-white">Contact Us</h1>
+        <div className="md:w-[40%] w-full text-left  h-full flex flex-col justify-end md:p-[4rem] p-[2rem] items-start">
+        <h1 className="text-4xl font-bold text-white">Contact Us</h1>
             <p className="text-2xl text-white  mb-4">
               Thank you for visiting our website. If you have any questions or
               comments, please don't hesitate to contact us. Our customer
               service team is available to assist you.
             </p>
-          </div>
+        </div>
+         
         </Wrapper>
         <div className="w-[95%] m-auto items-center p-[1rem]">
           <Googlemaps />
