@@ -10,14 +10,15 @@ const Resources = () => {
     <>
       <Layout>
         <Wrapper>
-          {/* home wrapper */}
-          <div className="md:w-[40%] w-full md:text-left text-center h-full flex flex-col md:justify-center justify-end p-[4rem] items-start">
-            <h1 className="text-4xl font-bold text-white">Resources</h1>
+        <div className="md:w-[40%] w-full text-left  h-full flex flex-col justify-end md:p-[4rem] p-[2rem] items-start">
+         <h1 className="text-4xl font-bold text-white">Resources </h1>
             <p className="text-2xl text-white   my-4">
-              various types of materials, tools, and inputs that are required to
-              carry out a particular task, project or activity
+            various types of materials, tools, and inputs that are required to
+              carry out a particular task, project or activity.
             </p>
-          </div>
+        </div>
+          {/* home wrapper */}
+          
         </Wrapper>
         <Webinar />
         <Videos />
