@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ lists, title, price }) => {
+const Card = ({ lists, title, price,type }) => {
   console.log(lists);
   const oneof = "[One-Off]";
   return (
@@ -17,7 +17,7 @@ const Card = ({ lists, title, price }) => {
       <div className="basis-[40%] text-center">
         <p className="md:font-normal font-bold md:text-[18px] text-2xl">{title}</p>
         <h2 className="font-bold text-4xl my-[0.5rem] ">
-          ${price}. <span className="text-xl">00</span><span className="mb-[0.5rem] text-xl font-normal">{oneof}</span>
+          ${price}. <span className="text-xl">00</span><span className="mb-[0.5rem] text-xl font-normal"> {type?type:oneof}</span>
         </h2>
         
         <button className="w-full hidden md:block mx-auto my-[1rem] rounded-md text-white font-bold py-[0.5rem] bg-[#2ECBF1] hover:bg-[#2ECBF1] hover:text-[#030C4B]">

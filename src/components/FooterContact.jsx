@@ -1,5 +1,5 @@
 import { BiEnvelope, BiPhoneCall, BiLocationPlus } from "react-icons/bi";
-import { BsFacebook, BsTwitter, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsTwitter, BsInstagram,BsTelegram,BsYoutube } from "react-icons/bs";
 
 const FooterContact = () => {
   return (
@@ -26,7 +26,7 @@ const FooterContact = () => {
           </span>
           eflsgsgsn f dfs sdf fffsf df f w eerwewer{" "}
         </li>
-        <li className="flex justify-around my-[1rem] "><BsFacebook className="text-2xl cursor-pointer"/>  <BsTwitter className="text-2xl cursor-pointer"/> <BsInstagram className="text-2xl cursor-pointer"/> </li>
+        <li className="flex justify-around my-[1rem] "><BsFacebook className="text-2xl cursor-pointer"/>  <BsTwitter className="text-2xl cursor-pointer"/> <BsInstagram className="text-2xl cursor-pointer"/> <BsTelegram className="text-2xl cursor-pointer"/> <BsYoutube className="text-2xl cursor-pointer"/></li>
       </ul>
     </div>
   )

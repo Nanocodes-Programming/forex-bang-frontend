@@ -38,7 +38,7 @@ const Mentor = () => {
         />
         <Card
           price="300"
-          title="Exclusive Mentorship"
+          title="In-Class Mentorship "
           lists={[
             "» Physically based Training",
             "» Online based Training",

@@ -23,9 +23,10 @@ const Signal = () => {
         <Card
           price="100"
           title="Copy Signals"
+          type='Monthly'
           lists={[
             "» Exclusive Monthly Signals",
-            "» 0-5 Signals Weekly",
+            "» 1-5 Signals Weekly",
             "» Risk Minimized entries",
             "» Profit Maximized Trades",
             "» Weekly Charting",
