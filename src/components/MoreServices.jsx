@@ -7,18 +7,18 @@ import vip from "../assets/img/vip.png";
 const MoreServices = () => {
   const services = [
     {
-      title: "Technical & Fundamental Forex Course",
-      text: "Browse through the educational trading videos provided on the AMG TV, the videos cater for all types of traders from the beginner, intermediate and advanced. What we teach is simple yet effective trading strategies.",
+      title: "  Forex Fundamental & Technical  Course",
+      text: "Improvise yours trading skills with Cypher's beginner, Intermediate and advanced courses and videos. Be among the next gen of Cypher Fx Millionaire team by just sinking what we teach as our teachings are as effect and practically based.",
       img: graduate,
     },
     {
       title: "Weekly Zoom Sessions",
-      text: "Every week we will meet to analyse the upcoming trading week, give updates and share inputs, and learn what techniques were used, how and why, in our trading ideas that we've shared during the week.",
-      img: teaching,
+     text:"We meet on live zoom sessions every week to study the market for the week and as well give you some heads up on what to expect from the market for the week and equally study our previous trade actions for the past week. Hows and whys are studies, thus growing your knowledge in the Forex market.",
+     img: teaching,
     },
     {
-      title: "Trading Ideas & Signals",
-      text: "We are constantly on standby and monitoring the charts all the time for signals, as soon as we spot a movement then we publish it so you can also milk the market with us, our head trader usually sends scalp setups (highly profitable short-term trades) but most of the other mentors send swing trades, in this way you earn while you are learning.",
+      title: " Signals & Trading Ideas ",
+      text: "Cypher Forex adopts the earn as you learn strategy. Cypher and his expert team never take their eyes off the market. We are actively monitoring the Fundamental and Technical aspects of the market and will always send our signals out to our Mentorship students in a matter of few seconds to ensure you milk the market constantly with us. Cypher your pips from both our Scalping and Swing Analysis as we are equipped with professional short term and swing Traders.",
       img: ideas,
     },
     {
@@ -26,14 +26,10 @@ const MoreServices = () => {
       text: "VIP members can schedule a 1-1 mentorship with any of our mentors through the built-in scheduling app. They can ask any questions and sometimes even trade live with the mentor; this is quickest way to become a successful trader.",
       img: mentor,
     },
-    {
-      title: "Trading Tools",
-      text: "Get access to our exclusive indicators that we use to determine entry and exit zones in the market, in this section we also have EA’s and scripts that are proven to work, some already been used successfully by our students to pass their prop-firm funding challenges.",
-      img: trading,
-    },
+  
     {
       title: "V.I.P Support ",
-      text: "We are willing to fund successful traders who are doing well, we have a physical trading floor in SA where funded traders are welcome to work from, the rewards and benefits of being one of our funded traders are immeasurable.",
+      text: "We are willing to give you the V.I.P assistant in our Trading Floor in Nig and equally fund successful traders from our Mentorship students who are doing well. Experience outstanding services and rewards from us both as a Mentorship and Funded trader.",
       img: vip,
     },
   ];
