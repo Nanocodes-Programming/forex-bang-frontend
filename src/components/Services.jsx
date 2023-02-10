@@ -16,7 +16,7 @@ const service_data = [
     image: dollar,
   },
   {
-    title: "Exchange With Lumen Forex Academy",
+    title: "Exchange With CypherForex Academy",
     descrition:
       "Sell Bitcoins, Usdt and E-Wallet Funds (Perfect Money,  Skrill, Neteller,  Payoneer Funds) with LumenFx at good rates",
     image: group,

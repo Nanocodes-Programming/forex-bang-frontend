@@ -22,6 +22,11 @@ const Home = () => {
             <button className="py-[0.5rem] px-[2rem] md:w-[80%] w-full rounded-xl text-2xl text-white font-bold bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
               Get Started
             </button>
+            <aside>
+              <button className='py-[0.5rem] px-[3rem] bg-[red] text-white font-bold' > mentorship</button>
+              <button className='py-[0.5rem] px-[3rem] bg-[red] text-white font-bold' > Signals</button>
+              <button className='py-[0.5rem] px-[3rem] bg-[red] text-white font-bold' > Exchange</button>
+            </aside>
           </div>
           {/* home wrapper */}
           {/* services starts here */}

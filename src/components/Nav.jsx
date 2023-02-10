@@ -30,7 +30,7 @@ const Nav = () => {
           <div className="flex items-center">
             <img src={logo} alt="main" className="w-[60px] h-[60px]" />
             <h2 className="text-white font-bold mx-2">
-              Lumen Forex <br />
+              CypherForex <br />
               Academy
             </h2>
           </div>

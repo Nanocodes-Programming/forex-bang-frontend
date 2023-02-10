@@ -23,7 +23,7 @@ const About = () => {
           <div className="p-[1rem] text-white">
             <h2 className="font-bold text-4xl mb-[1rem]">About Us</h2>
             <p className="text-lg my-[2rem]">
-              Lumen forex academy is the largest forex community with the most
+              Cypherforex academy is the largest forex community with the most
               active subscribers in the continent. The academy is led by Dr Ref
               Wayne who is a pioneer and an Award-Winning Forex Trader. What
               makes us the first choice is the reputation that we have built

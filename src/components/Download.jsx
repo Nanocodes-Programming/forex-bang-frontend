@@ -1,7 +1,7 @@
 import apple from '../assets/img/appstore.png'
 import android from '../assets/img/google play.png'
-import lumen from '../assets/img/lumen phone.png'
-import lumen2 from '../assets/img/lumen phone2.png'
+import Cypherfrom '../assets/img/Cypherphone.png'
+import lumen2 from '../assets/img/Cypherphone2.png'
 
 const Download = () => {
   return (
