@@ -1,12 +1,12 @@
 import apple from '../assets/img/appstore.png'
 import android from '../assets/img/google play.png'
-import Cypherfrom '../assets/img/Cypherphone.png'
+import Cypher from '../assets/img/Cypherphone.png'
 import lumen2 from '../assets/img/Cypherphone2.png'
 
 const Download = () => {
   return (
     <div className='flex items-center min-h-[80vh]  text-white text-center flex-col md:flex-row p-[1rem]'>
-        <aside className='h-[100%]'> <img src={lumen} alt="" className='h-[100%]'/> </aside>
+        <aside className='h-[100%]'> <img src={Cypher} alt="" className='h-[100%]'/> </aside>
         <aside> 
             <h2 className='text-4xl mb-6'>Download Our New Mobile App Today</h2>
             <p>Never miss a trade again as you recieve HIGHLY accurate trading signals directly to your phone with the ForexAMG app. Traders are also able to enjoy more features and keep up to date to the latest using the app. Available for iPhone® and Android™</p>

@@ -25,6 +25,7 @@ const Mentor = () => {
           price="500"
           title="Exclusive Mentorship"
           lists={[
+            
             "» One-on-One Private Mentorship",
             " » One month Exclusive Training",
             " » Free Signals",
