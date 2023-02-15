@@ -12,13 +12,13 @@ const service_data = [
   {
     title: "Forex Trade Signals",
     descrition:
-      "Earn on the go with LumenFx by copying our daily bases signals direct to your trading account.",
+      "Earn on the go with CypherFx by copying our daily bases signals direct to your trading account.",
     image: dollar,
   },
   {
     title: "Exchange With CypherForex Academy",
     descrition:
-      "Sell Bitcoins, Usdt and E-Wallet Funds (Perfect Money,  Skrill, Neteller,  Payoneer Funds) with LumenFx at good rates",
+      "Sell Bitcoins, Usdt and E-Wallet Funds (Perfect Money,  Skrill, Neteller,  Payoneer Funds) with CypherFx at good rates",
     image: group,
   },
 ];

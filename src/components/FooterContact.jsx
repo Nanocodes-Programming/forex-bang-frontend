@@ -12,7 +12,7 @@ const FooterContact = () => {
           <span className="mx-2">
             <BiEnvelope />
           </span>{" "}
-          support@lumenforex.com
+          support@Cypherforex.com
         </li>
         <li className="flex items-center my-3">
           <span className="mx-2">

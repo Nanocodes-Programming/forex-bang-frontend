@@ -13,7 +13,7 @@ const Mentor = () => {
           <h1 className="text-4xl font-bold text-white">Mentorship Program</h1>
           <p className="text-2xl text-white   my-4">
             Exclusive Mentorship Program Get the best One-on-One Private
-            Training you could ever imagine both online and offline with LumenFx
+            Training you could ever imagine both online and offline with CypherFx
             Expert Team.
           </p>
         </div>
@@ -30,8 +30,8 @@ const Mentor = () => {
             " » One month Exclusive Training",
             " » Free Signals",
             "» EAYL bonus",
-            "» Real live Charting with LumenFx",
-            "» Lumen's Exclusive Course",
+            "» Real live Charting with CypherFx",
+            "» Cypher's Exclusive Course",
             " » Online/Pro Mentorship Sessions",
             " » Mastery Certificate award",
           ]}

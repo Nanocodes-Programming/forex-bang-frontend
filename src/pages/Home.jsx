@@ -22,7 +22,7 @@ const Home = () => {
             <button className="py-[0.5rem] px-[2rem] md:w-[80%] w-full rounded-xl text-2xl text-white font-bold bg-[#030C4B] hover:bg-[#2ECBF1] hover:text-[#030C4B]">
               Get Started
             </button>
-            <aside className="flex gap-[2%] my-[1rem]">
+            <aside className="md:flex gap-[2%] my-[1rem] hidden">
               <button className='py-[0.5rem]  rounded-lg px-[3rem] bg-[red] text-white font-bold' > mentorship</button>
               <button className='py-[0.5rem] rounded-lg  px-[3rem] bg-[red] text-white font-bold' > Signals</button>
               <button className='py-[0.5rem] rounded-lg  px-[3rem] bg-[red] text-white font-bold' > Exchange</button>

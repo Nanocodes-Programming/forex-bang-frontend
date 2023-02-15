@@ -13,7 +13,7 @@ const About = () => {
             <p className="text-2xl text-white   my-4">
               Exclusive Mentorship Program Get the best One-on-One Private
               Training you could ever imagine both online and offline with
-              LumenFx Expert Team.
+              CypherFx Expert Team.
             </p>
           </div>
         </Wrapper>

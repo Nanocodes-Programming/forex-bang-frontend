@@ -21,7 +21,7 @@ const Exchanges = () => {
         <Card
           price="100"
           lists={[
-            "Sell Bitcoins, Usdt and E-Wallet Funds (Perfect Money,  Skrill, Neteller,  Payoneer Funds) with LumenFx at good rates",
+            "Sell Bitcoins, Usdt and E-Wallet Funds (Perfect Money,  Skrill, Neteller,  Payoneer Funds) with CypherFx at good rates",
 
             "» Good Rate",
             "» Fast and Secured",
