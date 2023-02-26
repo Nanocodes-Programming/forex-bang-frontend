@@ -7,6 +7,8 @@ import Mentor from "./pages/Mentor";
 import Signal from "./pages/Signal";
 import Blogs from "./pages/Blogs";
 import Resources from "./pages/Resources";
+import PaystackForm from "./pages/PaystackForm";
+import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
   {
@@ -41,9 +43,18 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />,
   },
+  {
+    path: "/pay",
+    element: <PaystackForm />,
+  },
 ]);
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <>
+      <ToastContainer />
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
 export default App;
